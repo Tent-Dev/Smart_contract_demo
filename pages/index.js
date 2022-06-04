@@ -94,8 +94,6 @@ function Index() {
 
         let network = '';
         let networkDisplay = '';
-        let warning = '';
-        let explorerUrl = '';
 
         console.log('netId: ' + netId);
 
@@ -103,25 +101,18 @@ function Index() {
           case 1:
               network = 'Mainnet';
               networkDisplay = network;
-              warning = 'please switch your network to Kovan or Thai Chain';
-              explorerUrl = "https://" + network.toLowerCase() + ".etherscan.io/tx/"
               break
           case 2:
               network = 'Deprecated Morden';
               networkDisplay = network;
-              warning = 'please switch your network to Kovan or Thai Chain';
-              explorerUrl = "https://" + network.toLowerCase() + ".etherscan.io/tx/"
               break
           case 3:
               network = 'Ropsten';
               networkDisplay = network;
-              warning = 'please switch your network to Kovan or Thai Chain';
-              explorerUrl = "https://" + network.toLowerCase() + ".etherscan.io/tx/"
               break
           default:
               network = 'Unknown';
               networkDisplay = network;
-              warning = 'please switch your network to Kovan or Thai Chain';
         }
         setNetwork(networkDisplay);
         console.log('Network: ', networkDisplay);
