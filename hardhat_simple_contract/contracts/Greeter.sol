@@ -2,8 +2,9 @@
 pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
+import "./MyToken_zip.sol";
 
-contract Greeter {
+contract Greeter is MyToken_zip {
     string private greeting;
 
     constructor(string memory _greeting) {
