@@ -248,7 +248,7 @@ function Index() {
                 <Button onClick={setGreetMe}>Set Me!</Button>
               </div>
             </Card>
-            <Card style={{marginTop: 20}}>
+            {/* <Card style={{marginTop: 20}}>
             <Row className="justify-content-md-center">
               <Col md="auto" style={{textAlign: 'left'}}>
                 <div style={{marginTop: 20}}>
@@ -262,7 +262,7 @@ function Index() {
               <div style={{marginTop: 10, marginBottom: 20}}>
                 <Button onClick={transferHardhat}>Send</Button>
               </div>
-            </Card>
+            </Card> */}
           </Col>
         </Row>
          
